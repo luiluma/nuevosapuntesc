@@ -1,4 +1,4 @@
-** AYUDA CON LA DELCARACIÓN CHAR**
+**AYUDA CON LA DELCARACIÓN CHAR**
 La declaración char *argv[] es una matriz (de tamaño indeterminado) de punteros a char, en otras palabras, una matriz de cadenas.
 
 Y todas las matrices se descomponen en punteros, por lo que puede usar una matriz como puntero (al igual que puede usar un puntero como matriz). Entonces, *++argv primero aumenta el "puntero" para apuntar a la siguiente entrada en la matriz argv (que la primera vez en el ciclo será el primer argumento de la línea de comando) y elimina la referencia a ese puntero.
@@ -160,4 +160,3 @@ BLOQUE 2.4 EJEMPLO DE COMO POR UNA ENTRADA DE TEXTO SE AGREGUE EL VALOR DE UNA H
 
     printf ("El mayor de todos los numeros es: %i\n" ,max);
 
-    
