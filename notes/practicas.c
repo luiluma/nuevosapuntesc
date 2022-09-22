@@ -1,31 +1,30 @@
 #include <stdio.h>
 
-void fun (int a[]);
-void imprimir (int x[]) ;
+void ordenar (int a[]);
+void imprimir (int x[]);
+
 int main () {
 
-    int v [2];
-    imprimir (v);
-    fun (v);
-  
-  return 0;  
+int v [10] = {4,7,8,9,6,5,2,1,3,0};
+
+ordenar (v);
+imprimir (v);
+
+ return 0;
 }
 
-void fun (int a[]) {
-    int i;
+void ordenar (int a[]) {
+    int i,j,aux;
 
-     for (i = 0; i < 2; i++){
-        printf ("Introduce un valor para el vector: ");
-        scanf ("%i" ,&a[i]);
-     }
-}
-
-void imprimir (int x[]) {
-    int i;
-      for (i = 0; i < 2; i++) {
-        printf ("%i " ,x[i]);
-      }
-        printf ("\n\n");
+  for (i = 0; i < 10; i++) {
+       for ( j = i; j < 10; j++) {
+            if (a[i]  > a[j]) {
+                aux = a[i];
+                a[i] = a[j];
+                a[j] = aux;
+            }
+       }
+  }  
 }
 
    
