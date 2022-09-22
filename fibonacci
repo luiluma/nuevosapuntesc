@@ -1,0 +1,55 @@
+ **LA SECUENCIA FIBONACCI**
+
+ Se le llama el codigo secreto de la naturaleza o la secuencia divina.
+
+ Es la secuencia de numeros mas famosa de toda la historia; puesto que aparece una y otra vez en series de la naturaleza.como por ejemplo:
+ - petalos de girasoles
+ -cascara de la piña
+
+ Va de la mano con el numero **ÁUREO** este tiene vinculo con la naturaleza y la belleza.
+
+ la secuencia es la siguiente:
+
+ siempre se empeiza con un 1 , y se sigue con otro 1 
+
+ ¿cual es el final de tener dos unos al inicio de esta secuencia?
+
+ facil, en esta secuencia lo unico que se hará es sumar los ultimos dos numeros para hacer posible el siguiente resultado; asi:
+   1 1 2 3 5 8 13 21 34 .....
+asi se veria graficamente con el orden de las sumas.
+   1+1 2+3 5+8 13+21 34
+
+Es una secuencia infinita ya que nunca se dejaran de sumar los numeros!
+
+**DATOS EXTRAS**
+
+1. un tercio de esos numeros son pares
+2. una cuarta parte de esos numeros son multiplos de 3
+3. una quinta parte de esos numeros son multiplos de 5
+4. ésta secuencia está relacionada con el triangulo de pascal, si ubicamos los numeros en diagonal como lo muestra el dicho triangulo.
+
+¿Quién fue Fibonacci?
+Leonardo de Pisa, también conocido como Fibonacci, fue un matemático italiano del siglo XIII (nació en 1170 y murió en 1240).
+
+¿Qué es la secuencia Fibonacci?
+Fibonacci dio a conocer esta secuencia en occidente con la resolución de un problema sobre crianza de conejos:
+
+Un granjero tiene dos conejos que tardan dos meses en alcanzar la madurez. Luego de eso, cada mes dan a luz a un nuevo par de conejos ¿cómo podemos saber cuántos pares de conejos habrá en los meses subsecuentes?
+
+Para determinar el número de parejas hipotéticas que cada mes nacerán a partir de un par de conejos descubrió esta secuencia:
+
+Al principio hay 1 pareja de conejos bebés
+- En un mes habrá 1 pareja que se cruza (1+0=1)
+- En 2 meses habrá 2 parejas (1+1=2)
+- En 3 meses habrá 3 parejas (2+1=3)
+- En 4 meses habrá 5 parejas (3+2=5)
+- En 5 meses habrá 8 parejas (5+3=8)
+- En 6 meses habrá 13 parejas (8+5=13)
+- En 7 meses habrá 21 parejas (13+8=21)
+- En 8 meses habrá 34 parejas (21+13=34)
+
+Y así sucesivamente.
+Como vemos, la secuencia Fibonacci es una sucesión infinita de números naturales donde cada elemento se deriva de la suma de los dos números anteriores:
+
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597…
+
